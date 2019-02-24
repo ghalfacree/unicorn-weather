@@ -31,7 +31,7 @@ while True:
         elif weatherCode == 804:
             weatherIcon = 'cloudy.png'
 
-        subprocess.call(['python', '/home/pi/weather/weather-icons.py', weatherIcon])
+        subprocess.call(['python3', '/home/pi/unicorn-weather/weather-icons.py', weatherIcon])
 
     else:
         time.sleep(60)
